@@ -9,7 +9,24 @@ import SwiftUI
 
 struct SecondExampleView_swift: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                HStack {
+                    Spacer(minLength: 90)
+                    VStack {
+                        Text("feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat")
+                    Image("cat1")
+                        .resizable()
+                        .scaledToFit()
+                        
+                    }
+                }
+                
+                HStack {
+                    
+                }
+            }
+        }
     }
 }
 
