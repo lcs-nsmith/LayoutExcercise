@@ -30,6 +30,7 @@ struct ContentView: View {
                     .scaledToFit()
                 Text("auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc")
                     .foregroundColor(.red)
+                    .padding(.bottom)
             }
             .background(.white)
             
@@ -40,6 +41,7 @@ struct ContentView: View {
                 Image("h0lychicken")
                     .resizable()
                     .scaledToFit()
+                    .padding(.bottom, 90)
             }
             .background(.red)
         }
